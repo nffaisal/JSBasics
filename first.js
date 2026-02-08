@@ -72,3 +72,7 @@ function changeBackground(){
 function ParagraphHide(){
     document.getElementById("p").style.display ="none";
 }
+function ChangeText(){
+    let text =prompt("what do you want to change text to:");
+    document.getElementById("p").innerText =text;
+}
