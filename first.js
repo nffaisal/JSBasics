@@ -66,3 +66,9 @@ function add(num1,num2){
 let num3= prompt("enter first number");
 let num4 =prompt("enter a second number");
 alert("the result is " + add(num3,num4));
+function changeBackground(){
+    document.getElementById("body").style.backgroundColor ="blue";
+}
+function ParagraphHide(){
+    document.getElementById("p").style.display ="none";
+}
