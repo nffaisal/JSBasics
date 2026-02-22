@@ -9,13 +9,13 @@ body.darkMode {
 }
 
 .TaskInput {
-    size: 100%;
+    width: 100%;
 }
 h1 {
     color: rgb(175, 175, 255);
     font-size: 48px;
-    padding: 40px;
-    margin: 50px;
+    padding: 35px;
+    margin: 40px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -29,21 +29,35 @@ form{
   margin-right: 300px;
 }
 input[type="text"] {
-   field-sizing: content;
-  min-width: 10ch; /* Minimum width of 10 characters */
-  max-width: 50ch;
   box-sizing: border-box;
   font-size: 20px; 
   padding: 50px;
   text-align: center;
-  margin: 70px;/* Sets the height of the input box */
+  margin: 70px;
 }
 .list {
     text-align: center;
     border:rgb(175, 175, 255) 2px solid;
+    padding: 10px 10px 10px 10px;
+    margin: 15px;
 
     
 }
-#btn {
-    
+#todo {
+    border: solid 1px rgb(175, 175, 255);
+    padding: 20px;
+    margin: 20px;
+}
+li {
+    text-align: justify;
+}
+button {
+    background-color:rgb(175, 175, 255);  
+    border: none;
+    border-radius: 2px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    margin: 5px;
 }

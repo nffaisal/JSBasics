@@ -13,19 +13,19 @@ li.textContent =Tasktext; //text content transferred to list item
 counter++;
 
 TaskInput.value =''; //empties input value place
-const deleteButton =document.createElement('button');
-deleteButton.createAttribute(class,"deleteButton");
-deleteButton.textContent ="delete";
- deleteButton.addEventListener('click',removeTask);
+//delete button functionality
+const deleteButton =document.createElement('button');  //create a delete button
+deleteButton.textContent ="delete";  //content of button
+ deleteButton.addEventListener('click',removeTask);       //when clicked remove task will operate
 function removeTask(){
     li.remove();
     counter--;
-    counterPara.textContent =`Tasks Left: ${counter}`; 
+    counterPara.textContent =`Tasks: ${counter}`; 
 }
-li.appendChild(deleteButton);
+li.appendChild(deleteButton); 
 list.appendChild(li);
 
-counterPara.textContent =`Count: ${counter}`; 
+counterPara.textContent =`Tasks: ${counter}`; 
 }
   btn.addEventListener('click', addTask);
   //dark mode
@@ -34,7 +34,7 @@ counterPara.textContent =`Count: ${counter}`;
     DarkModeBtn.addEventListener('click', function() {
 
       body.classList.toggle('darkMode');
-    })
+    });
 
     
   
