@@ -1,8 +1,49 @@
 body {
     background-color: rgb(255, 242, 226);
     color:black;
+    font-family: 'Times New Roman';
 }
 body.darkMode {
     background-color: rgb(34, 34, 34);
     color: rgb(234, 244, 244);
+}
+
+.TaskInput {
+    size: 100%;
+}
+h1 {
+    color: rgb(175, 175, 255);
+    font-size: 48px;
+    padding: 40px;
+    margin: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+label {
+    text-align: center;
+
+}
+form{
+ margin-left: 299px;
+  padding: 10px;
+  margin-right: 300px;
+}
+input[type="text"] {
+   field-sizing: content;
+  min-width: 10ch; /* Minimum width of 10 characters */
+  max-width: 50ch;
+  box-sizing: border-box;
+  font-size: 20px; 
+  padding: 50px;
+  text-align: center;
+  margin: 70px;/* Sets the height of the input box */
+}
+.list {
+    text-align: center;
+    border:rgb(175, 175, 255) 2px solid;
+
+    
+}
+#btn {
+    
 }

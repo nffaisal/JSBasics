@@ -14,6 +14,7 @@ counter++;
 
 TaskInput.value =''; //empties input value place
 const deleteButton =document.createElement('button');
+deleteButton.createAttribute(class,"deleteButton");
 deleteButton.textContent ="delete";
  deleteButton.addEventListener('click',removeTask);
 function removeTask(){
