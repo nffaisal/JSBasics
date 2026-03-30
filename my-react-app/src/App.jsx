@@ -1,9 +1,10 @@
 import Header from './Header.jsx'
 import Footer from'./Footer.jsx'
 import Card from './Card.jsx'
-import Button from './Button.jsx'
 import Student from './Student.jsx'
 import Usergreeting from './Usergreeting.jsx'
+import List from './List.jsx'
+import Button from './Button.jsx'
 function App(){
   return(
     <>
@@ -12,6 +13,7 @@ function App(){
     <Student name="Noor" age={18} isStudent ={true}/>
     <Student/>
     <Card/>
+    <List/>
     <Button/>
     <Footer></Footer>
     </>
