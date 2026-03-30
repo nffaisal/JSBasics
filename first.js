@@ -14,7 +14,7 @@ console.log(x - y);
 console.log(x/y);
 console.log(x*y);
 //task 4 asking for user name and showing it on screen
-let userName = prompt("what is your name?");
+/* let userName = prompt("what is your name?");
 alert("Your name is " + userName);
 //task 5 check if user is eligible to vote
 let userAge =prompt("what is your age? ");
@@ -65,7 +65,7 @@ function add(num1,num2){
 }
 let num3= prompt("enter first number");
 let num4 =prompt("enter a second number");
-alert("the result is " + add(num3,num4));
+alert("the result is " + add(num3,num4)); */
 function changeBackground(){
     document.getElementById("body").style.backgroundColor ="blue";
 }
