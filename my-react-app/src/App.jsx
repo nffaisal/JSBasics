@@ -6,6 +6,9 @@ import Usergreeting from './Usergreeting.jsx'
 import List from './List.jsx'
 import Button from './Button.jsx'
 import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
+import MycomponentTwo  from './MycomponentTwo.jsx'
+import colorPicker from './colorPicker.jsx'
 function App(){
   return(
     <>
@@ -17,6 +20,9 @@ function App(){
     <Card/>
     <List/>
     <Button/>
+    <colorPicker/>
+    <Counter/>
+    <MycomponentTwo/>
     <Footer></Footer>
     </>
       );
